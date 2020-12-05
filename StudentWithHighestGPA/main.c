@@ -5,6 +5,12 @@
 //  Created by Prajwal Dhungana on 12/5/20.
 //
 
+//declaring necesary libraries
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//including header file
 #include "header.h"
 
 //begin main
@@ -14,7 +20,8 @@ int main()
     int maxGPA = 0;
     printf("\n Please enter how many students you want to add to the database: ");
     scanf(" %d", &numberOfStudents);
-
+    
+    //creating secondary struct with array
     struct student st[numberOfStudents];
 
     printf("\n-------------------------------------------------------\n");
@@ -23,7 +30,8 @@ int main()
     //for loop to get user input
     for (int i = 0; i < numberOfStudents; i++)
     {
-        printf("\nStudent Id : ");
+        printf("\n Student %d\n", i+1);
+        printf("Student Id(number) : ");
         scanf(" %d", &st[i].ID);
 
         printf("First Name : ");
