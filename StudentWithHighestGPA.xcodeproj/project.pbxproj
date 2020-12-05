@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		BA11E734257C167E00685844 /* StudentWithHighestGPA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudentWithHighestGPA; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA11E737257C167E00685844 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BA11E73F257C17BA00685844 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				BA11E737257C167E00685844 /* main.c */,
+				BA11E73F257C17BA00685844 /* header.h */,
 			);
 			path = StudentWithHighestGPA;
 			sourceTree = "<group>";
